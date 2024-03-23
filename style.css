@@ -1,0 +1,72 @@
+.bordes{
+    margin: 3%;
+    background-color: rgb(248, 106, 106);
+    color: white;
+    
+    /*background-image: url('img/Motivo\ fondo.svg');*/
+    /*background-size: cover;  Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    /*background-position: center; /* Centra la imagen en el fondo */
+   /* background-repeat: repeat-y;*/
+}
+
+body {
+    position: relative; /* Establece la posición relativa para el cuerpo */
+}
+
+
+
+.logo{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.avatar{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.avatarselect {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: auto;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.avatarselect button {
+    background-color: blue;
+    width: 20%; 
+    height: 80%; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    outline: none; 
+    margin-right: 3%;
+    margin-left: 3%;
+  
+}
+
+
+.avatarselect #orange{
+    background:rgb(255, 128, 0);
+}
+
+.avatarselect #green{
+    background:rgb(0, 255, 127);
+}
+
+.avatarselect #red{
+    background:rgb(255, 0, 0);
+}
+
+.avatarselect #purple{
+    background:rgb(242, 0, 255);
+}
+
